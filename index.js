@@ -52,17 +52,21 @@ function game(){
     let computerPoints = 0 ;
     let userPoints = 0 ;
     let tiePoints = 0
-    let gameNumber = 0
-    
+    let gameNumber = 1
 
     for(let i=1; i<=9; i++){
     
-        let choice = prompt(`! Choose your choice by typing rock paper o scissors"`);
+        let choice = prompt(`Game number ${gameNumber}! Choose your choice by typing rock paper o scissors"`);
 
         gameNumber++
+
+        console.log(`User Points ${userPoints}!`)
+        console.log(`Computer Points ${computerPoints}!`)
+        console.log(`Tie Points ${tiePoints}!`)
+
+
         result = playRound(choice)
         result = String(result)
-        
         
         if (result.includes("Computer")){
             computerPoints++
@@ -73,7 +77,17 @@ function game(){
         else if (result.includes("Tie")){
             tiePoints++
         } 
+
     }
+    if (computerPoints === 5) {
+        return console.log('Computer Won! User Lost')
+    }
+    else if (userPoints === 5) {
+        return console.log('User Won! Computer Lost')
+    }
+
+
+
 }
 
 game()
