@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.6.1](https://github.com/adammmusial/rock-paper-scissors/compare/v1.6.0...v1.6.1) (2024-01-17)
+
+
+### Bug Fixes
+
+* simplify  game() function by changing from for to while loop ([c676b2a](https://github.com/adammmusial/rock-paper-scissors/commit/c676b2a447a181fabd42d5f8214a180fbdb3b5a7))
+* simplify playRound function by removing multiple else ifs ([c6d0c37](https://github.com/adammmusial/rock-paper-scissors/commit/c6d0c373fb4b13ec6f54452c2b89bab9341e3ad7))
+
 ## [1.6.0](https://github.com/adammmusial/rock-paper-scissors/compare/v1.5.1...v1.6.0) (2024-01-17)
 
 
