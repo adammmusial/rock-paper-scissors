@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/adammmusial/rock-paper-scissors/compare/v1.2.0...v1.3.0) (2024-01-17)
+
+
+### Features
+
+* add features to computerSelection function ([7bab16c](https://github.com/adammmusial/rock-paper-scissors/commit/7bab16c5a67bd7e6f6b842c260f53c894d8c6136))
+* create computerSelectio function to randomly select string from array ([edcfb06](https://github.com/adammmusial/rock-paper-scissors/commit/edcfb0691027c4058de0d4a76b5042d4c884bd35))
+
 ## [1.2.0](https://github.com/adammmusial/rock-paper-scissors/compare/v1.1.2...v1.2.0) (2024-01-17)
 
 
