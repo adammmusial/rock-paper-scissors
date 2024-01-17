@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.0](https://github.com/adammmusial/rock-paper-scissors/compare/v1.4.0...v1.5.0) (2024-01-17)
+
+
+### Features
+
+* implement game() function and add changes to playRound() function ([8de4bec](https://github.com/adammmusial/rock-paper-scissors/commit/8de4becfce6bcb4cce700b663213bf0e36524074))
+
 ## [1.4.0](https://github.com/adammmusial/rock-paper-scissors/compare/v1.3.0...v1.4.0) (2024-01-17)
 
 
