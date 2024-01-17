@@ -42,29 +42,25 @@ function game() {
     let tiePoints = 0
     let gameNumber = 1
 
-    for (let i = 1; i <= 9; i++) {
+    while (computerPoints < 5 && userPoints < 5) {
 
         let choice = prompt(`Game number ${gameNumber}! Choose your choice by typing rock paper o scissors"`);
+        let result = playRound(choice)
+        gameNumber++;
 
-        gameNumber++
+        if (result === "Computer") {
+            computerPoints++;
+        }
+        else if (result === "User") {
+            userPoints++;
+        }
+        else if (result === "User") {
+            tiePoints++;
+        }
 
         console.log(`User Points ${userPoints}!`)
         console.log(`Computer Points ${computerPoints}!`)
         console.log(`Tie Points ${tiePoints}!`)
-
-
-        result = playRound(choice)
-        result = String(result)
-
-        if (result.includes("Computer")) {
-            computerPoints++;
-        }
-        else if (result.includes("User")) {
-            userPoints++;
-        }
-        else if (result.includes("Tie")) {
-            tiePoints++;
-        }
 
     }
     if (computerPoints === 5) {
