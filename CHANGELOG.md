@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.5.1](https://github.com/adammmusial/rock-paper-scissors/compare/v1.5.0...v1.5.1) (2024-01-17)
+
+
+### Bug Fixes
+
+* fix TypeError by converting result to string ([9e54350](https://github.com/adammmusial/rock-paper-scissors/commit/9e54350320a14508d1beddc008de51deceee0cdc))
+
 ## [1.5.0](https://github.com/adammmusial/rock-paper-scissors/compare/v1.4.0...v1.5.0) (2024-01-17)
 
 
