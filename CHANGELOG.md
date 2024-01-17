@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/adammmusial/rock-paper-scissors/compare/v1.3.0...v1.4.0) (2024-01-17)
+
+
+### Features
+
+* immplement playRound function to find out who won the game ([85699aa](https://github.com/adammmusial/rock-paper-scissors/commit/85699aa7a2c6120b7c2e45f343a09747c6154d3a))
+
+
+### Bug Fixes
+
+* change function name from computerSelectin to getComputerChoice ([96ed99b](https://github.com/adammmusial/rock-paper-scissors/commit/96ed99bc24745ad9a2a85570245f0707303cdf1b))
+
 ## [1.3.0](https://github.com/adammmusial/rock-paper-scissors/compare/v1.2.0...v1.3.0) (2024-01-17)
 
 
