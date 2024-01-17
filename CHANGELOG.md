@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.2](https://github.com/adammmusial/rock-paper-scissors/compare/v1.1.1...v1.1.2) (2024-01-17)
+
+
+### Bug Fixes
+
+* add fixes to package.json file ([bea928b](https://github.com/adammmusial/rock-paper-scissors/commit/bea928bac00d7bceab227c994701eec89507a8e8))
+
 ### [1.1.1](https://github.com/adammmusial/rock-paper-scissors/compare/v1.1.0...v1.1.1) (2024-01-17)
 
 ## 1.1.0 (2024-01-17)
