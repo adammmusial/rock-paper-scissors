@@ -52,18 +52,25 @@ function game(){
     let computerPoints = 0 ;
     let userPoints = 0 ;
     let tiePoints = 0
+    let gameNumber = 0
+    
 
     for(let i=1; i<=9; i++){
     
-        let choice = prompt("Let's start! Choose your choice by typing rock paper o scissors");
+        let choice = prompt(`! Choose your choice by typing rock paper o scissors"`);
+
+        gameNumber++
+        result = playRound(choice)
+        result = String(result)
         
-        if (playRound(choice).includes("Computer")){
+        
+        if (result.includes("Computer")){
             computerPoints++
         }
-        else if (playRound(choice).includes("User")){
+        else if (result.includes("User")){
             userPoints++
         }
-        else if (playRound(choice).includes("Tie")){
+        else if (result.includes("Tie")){
             tiePoints++
         } 
     }
