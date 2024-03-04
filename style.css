@@ -14,17 +14,17 @@
     padding: 100;
   }
 
-.scissors {
+#scissors {
     background: palevioletred;
     border: 1px solid maroon;
   }
 
-.paper {
+#paper {
     background: white;
     border: 1px solid black
   }
 
-.rock {
+#rock {
     background: grey;
     border: 1px solid darkgray
   }
