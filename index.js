@@ -70,8 +70,6 @@ function game() {
         return console.log('User Won! Computer Lost')
     }
 
-
-
 }
 
-game()
+//game()
